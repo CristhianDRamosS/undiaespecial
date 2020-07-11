@@ -1,0 +1,539 @@
+@import url(http://fonts.googlepis.com/css?family=Montserrat:400,700);
+
+body {
+  color: #000080;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #87CEFA;
+  margin:0;
+  padding:0;
+  height:100%;
+  width:100%;
+}
+
+#header {
+  background-color: #6495ED;
+  height: 150px;
+  position: relative;
+  margin-top: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#header a {
+  color: #FFFFE0;
+}
+
+#header a:hover {
+  color: #FFD700;
+}
+
+#header-title {
+  font-size: 35px;
+  margin: 0 0 0 0;
+  padding: 0;
+  border: 0;
+  font-weight: bold;
+}
+
+#header-nav {
+  font-size: 20px;
+  margin: 0 0 0 0;
+  padding: 0;
+  border: 0;
+  font-family: fantasy;
+  word-spacing: 10cm;
+  display: inline-block;
+}
+
+#header-nav li {
+  display: inline;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: inline-block;
+  width: 100%;
+}
+
+#footer {
+  background-color: #6495ED;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-top: 50px;
+}
+
+#footer h1 {
+  color: #FFC0CB;
+  letter-spacing: 0.1em;
+}
+
+#footer h4 {
+  color: #FFC0CB;
+  letter-spacing: 0.1em;
+}
+
+#footer p {
+  color: #FFC0CB;
+  line-height: 1.5;
+}
+
+.column1 {
+  float: left;
+  display: inline;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: left;
+}
+
+.column2 {
+  float: right;
+  width: 85%;
+  text-align: center;
+}
+
+.column1, .column2 {
+  vertical-align: top;
+  color: #FFC0CB;
+}
+
+a {
+  color: #0000FF;
+  text-decoration: solid;
+}
+
+a:hover {
+  color: #F6A623;
+}
+
+.post, .about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.post-author img {
+  animation-duration: 6s;
+  animation-name: mymove;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  overflow: hidden;
+  display: inline-block;
+  width: 45%;
+  height: auto;
+  border-radius: 50%;
+}
+
+@keyframes mymove {
+  from {
+    margin-left: 50%;
+    width: 45%;
+  }
+
+  to {
+    margin-left: -50%;
+    width: 45%;
+  }
+}
+
+.post-author span {
+  margin-left: 16px;
+}
+
+.post-date {
+  color: #D2D2D2;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h1, h2, h3, h4 {
+  color: #FFC0CB;
+}
+
+button {
+  background-color: #E6E6FA;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  border-width: bold;
+}
+
+.commentyuli, .commentcris, .commentfabian, .commentaleja {
+  background-color: #00BFFF;
+  width: 40%;
+  margin-left: 100px;
+  margin-right: 150px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: right;
+  border-radius: 35px;
+  border-bottom-left-radius: 0;
+  text-align: justify;
+  color: white;
+  font-family: cursive;
+}
+
+.commentjesika, .commentveci, .commentalejito {
+  background-color: #1E90FF;
+  width: 40%;
+  margin-left: 150px;
+  margin-right: 100px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+  border-radius: 35px;
+  border-bottom-left-radius: 0;
+  text-align: justify;
+  color: white;
+  font-family: fantasy;
+}
+
+.piccommentyuli, .piccommentcris, .piccommentfabian, .piccommentaleja {
+  width: 100%;
+  display: inline-block;
+  float: center;
+}
+
+.piccommentyuli img, .piccommentcris img, .piccommentfabian img, .piccommentaleja img {
+  height: auto;
+  width: 10%;
+  margin-left: 42%;
+  margin-right: 58%;
+}
+
+.piccommentyuli span, .piccommentcris span, .piccommentfabian span, .piccommentaleja span {
+  margin-left: 45%;
+  margin-right: 55%;
+  color: #F5F5DC;
+  font-family: cursive;
+}
+
+.piccommentjesika, .piccommentveci, .piccommentalejito {
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+
+.piccommentjesika img, .piccommentveci img, .piccommentalejito img {
+  height: auto;
+  width: 8%;
+  margin-left: 3%;
+  margin-right: 97%;
+}
+
+.piccommentjesika span, .piccommentveci span, .piccommentalejito span {
+  margin-left: 5%;
+  margin-right: 95%;
+  color: #F5F5DC;
+  font-family: fantasy;
+}
+
+#datoscuriosos h1 {
+  color: #FFD700;
+  font-family: cursive;
+  animation-duration: 13s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  overflow: hidden;
+  text-align: justify;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#dcg {
+  float: none;
+  font-family: cursive;
+  font-size: 20px;
+  width: 100%;
+  color: #AFEEEE;
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-image: url(https://gfycat.com/ickyinfantilehogget);
+}
+
+.dc3 img {
+  height: auto;
+  width: 17%;
+}
+
+.dc4 img {
+  height: 300px;
+  width: 600px;
+}
+
+.dc5 img {
+  height: 300px;
+  width: 200px;
+}
+
+.dc8 img {
+  height: 260px;
+  width: 400px;
+}
+
+.dc10 img {
+  height: 300px;
+  width: 600px;
+}
+
+.dc11 img {
+  width: 30%;
+  height: auto;
+}
+
+.dc13 img {
+  height: 300px;
+  width: 200px;
+}
+
+.dc17 img {
+  height: auto;
+  width: 30%;
+}
+
+.dc18 img {
+  height: auto;
+  width: 30%;
+}
+
+.dc25 img {
+  height: auto;
+  width: 30%;
+}
+
+.dc27 img {
+  height: auto;
+  width: 35%;
+}
+
+.dc29 img {
+  height: 300px;
+  width: 200px;
+}
+
+.dc33 img {
+  height: auto;
+  width: 50%;
+}
+
+.dc37 img {
+  height: 300px;
+  width: 600px;
+}
+
+.dc41 img {
+  height: auto;
+  width: 30%;
+}
+
+#recuerdos h1 {
+  color: #808000;
+  font-family: cursive;
+  animation-duration: 13s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  overflow: hidden;
+  text-align: justify;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#rvg img {
+  height: auto;
+  width: 30%;
+}
+
+.rv1, .rv2, .rv3 {
+  display: inline;
+}
+
+.rv4, .rv5, .rv6 {
+  display: inline;
+}
+
+.rv8, .rv9, .rv10 {
+  display: inline;
+}
+
+.rv11 {
+  height: auto;
+  width: 302%;
+  float: left;
+  margin-left: 73px;
+  padding-left: 0;
+  display: grid;
+  margin-bottom: 5px;
+}
+
+.rv12, .rv13, .rv14 {
+  display: inline;
+}
+
+.rv15, .rv16, .rv17 {
+  display: inline;
+}
+
+.rv18, .rv19, .rv20 {
+  display: inline;
+}
+
+.rv21, .rv22, .rv23 {
+  display: inline;
+}
+
+.rv24, .rv25, .rv26 {
+  display: inline;
+}
+
+.rv27, .rv28, .rv29 {
+  display: inline;
+}
+
+.rv30, .rv31, .rv32 {
+  display: inline;
+}
+
+.rv33, .rv34, .rv35 {
+  display: inline;
+}
+
+.rv36, .rv38, .rv39 {
+  display: inline;
+}
+
+.rv40, .rv41, .rv42 {
+  display: inline;
+}
+
+.rv43, .rv44, .rv45 {
+  display: inline;
+}
+
+.rv46, .rv50, .rv48 {
+  display: inline;
+}
+
+.rv49, .rv47 {
+  display: inline;
+}
+
+.rv1 img, .rv40 img, .rv29 img, .rv21 img {
+  border-radius: 15%;
+}
+
+.rv4 img, .rv43 img, .rv32 img, .rv24 img {
+  border-radius: 30%;
+}
+
+.rv8 img, .rv46 img, .rv35 img, .rv27 img {
+  border-radius: 50%;
+}
+
+.rv10 img, .rv49 img, .rv39 img, .rv30 img {
+  border-top-left-radius: 30%;
+}
+
+.rv13 img, .rv2 img, .rv41 img, .rv33 img {
+  border-top-right-radius: 30%;
+}
+
+.rv16 img, .rv5 img, .rv44 img, .rv36 img {
+  border-bottom-left-radius: 30%;
+}
+
+.rv19 img, .rv9 img, .rv47 img, .rv39 img {
+  border-bottom-right-radius: 30%;
+}
+
+.rv22 img, .rv11 img, .rv50 img, .rv42 img {
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+}
+
+.rv25 img, .rv14 img, .rv3 img, .rv45 img {
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+
+.rv28 img, .rv17 img, .rv6 img, .rv48 img {
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 30%;
+}
+
+.rv31 img, .rv20 img, .rv12 img {
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+
+.rv34 img, .rv23 img, .rv15 img {
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+
+.rv38 img, .rv26 img, .rv18 img {
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+}
+
+#adivinalos h1 {
+  color: #EEE8AA;
+  font-family: fantasy;
+  animation-duration: 13s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  overflow: hidden;
+  text-align: justify;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#r1 label {
+  font-family: sans-serif;
+  text-align: center;
+}
